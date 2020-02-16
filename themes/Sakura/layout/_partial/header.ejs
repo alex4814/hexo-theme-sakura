@@ -4,8 +4,10 @@
       <span class="site-title">
         <span class="logolink moe-mashiro">
           <a href="/">
-            <span class="sakurasono"><%= theme.prefixName %></span>
-            <span class="shironeko"><%= theme.siteName %></span>
+            <span class="sakurasono"><%= config.title %></span>
+            <% if (config.subtitle) { %>
+              <span class="shironeko"><%= config.subtitle %></span>
+            <% } %>
           </a>
         </span>
       </span>
