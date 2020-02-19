@@ -109,6 +109,12 @@ aplayer:
   volume: 0.7
   mutex: true
 
+# Disqus
+disqus:
+  enable: true
+  shortname: alex4814
+  count: true
+
 # Valine
 valine: true
 v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz

@@ -1,15 +1,46 @@
-<% if (theme.valine && post.comments) { %>
-<div id="vcomments"></div>
-<script>
-  window.onload = function(){
-      var valine = new Valine();
-      valine.init({
-        el: '#vcomments',
-        appId: "<%= theme.v_appId %>",
-        appKey: "<%= theme.v_appKey %>",
-        path: window.location.pathname,
-        placeholder: "你是我一生只会遇见一次的惊喜 ..."
-      })
-  }
-</script>
+<% if (post.comments) { %>
+
+  <% if (theme.disqus.enable) { %>
+    <div id="disqus_thread"></div>
+    <script>
+    
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    
+    var disqus_config = function () {
+    this.page.url = '<%= page.permalink %>';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '<%= page.source %>'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://<%= theme.disqus.shortname %>.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
+  
+    <% if (theme.disqus.count) { %>
+      <script id="dsq-count-scr" src="//<%= theme.disqus.shortname %>.disqus.com/count.js" async></script>
+    <% } %>
+  <% } else if (theme.valine) { %>
+
+    <div id="vcomments"></div>
+    <script>
+      window.onload = function(){
+          var valine = new Valine();
+          valine.init({
+            el: '#vcomments',
+            appId: "<%= theme.v_appId %>",
+            appKey: "<%= theme.v_appKey %>",
+            path: window.location.pathname,
+            placeholder: "你是我一生只会遇见一次的惊喜 ..."
+          })
+      }
+    </script>
+
+  <% } %>
+  
 <% } %>
