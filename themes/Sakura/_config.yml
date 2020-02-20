@@ -113,7 +113,7 @@ aplayer:
 disqus:
   enable: true
   shortname: alex4814
-  count: true
+  count: false
 
 # Valine
 valine: true
