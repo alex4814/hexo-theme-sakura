@@ -1,30 +1,24 @@
-<!-- <footer id="footer">
-  <% if (theme.sidebar === 'bottom'){ %>
-    <%- partial('_partial/sidebar') %>
-  <% } %>
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
-      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer> -->
 <footer id="colophon" class="site-footer" role="contentinfo">
   <div class="site-info">
     <div class="footertext">
-      <div class="img-preload">
-        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
-        <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
-      </div>
-      <p style="color: #666666;">&copy 2018</p>
-    </div>
-    <div class="footer-device">
-    <p style="font-family: 'Ubuntu', sans-serif;">
-        <span style="color: #b9b9b9;">Theme <a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> <i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i> by <a href="https://2heng.xin/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>&<a href="https://www.hojun.cn/" target="_blank" style="color: #b9b9b9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>, Powered by Hexo, Hosted by Coding Pages</a>
-        </span>
+      <p class="foo-logo" style="background-image: url('https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/sakura.svg');"></p>
+      <p style="font-family: 'Ubuntu', sans-serif;">
+        <span style="color: #666666;">Crafted with <i class="fa fa-heart animated" style="color: #e74c3c;"></i> by <span style="color: #000000;text-decoration:none;">alex4814</span>.
+        Theme <a href="https://github.com/alex4814/hexo-theme-sakura" target="_blank" style="color: #e74c3c;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> by <a href="https://2heng.xin/" target="_blank" style="color: #000000;text-decoration:none;">Mashiro</a> and <a href="https://www.hojun.cn/" target="_blank" style="color: #000000;text-decoration:none;">Hojun</a>.
       </p>
+      <p>© 2020 <%= config.title %></p>
     </div>
-  </div><!-- .site-info -->
+    <p id="footer-sponsor">
+      <a href="https://www.cloudflare.com/" target="_blank" alt="CDN Sponsor" rel="nofollow">
+        <img src="/images/logo/cloudflare-dark.svg" alt="CDN Sponsor" style="height: 1.5em;">
+      </a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.dmit.io/aff.php?aff=580" target="_blank" alt="Server provider" rel="nofollow">
+        <img src="/images/logo/dmit-blue.svg" alt="Server provider" style="height: 1.5em;">
+      </a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.google.com/intl/ja/analytics/" target="_blank" alt="Analytics solution" rel="nofollow">
+        <img src="https://cdn.jsdelivr.net/gh/moezx/cdn@3.0.8/img/logo/Google.svg" alt="Google Analytics" style="height: 1.5em; "></a>
+    </p>
+  </div>
 </footer>
 
 
