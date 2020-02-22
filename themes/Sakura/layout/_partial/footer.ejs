@@ -6,7 +6,7 @@
         <span style="color: #666666;">Crafted with <i class="fa fa-heart animated" style="color: #e74c3c;"></i> by <span style="color: #000000;text-decoration:none;">alex4814</span>.
         Theme <a href="https://github.com/alex4814/hexo-theme-sakura" target="_blank" style="color: #e74c3c;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a> by <a href="https://2heng.xin/" target="_blank" style="color: #000000;text-decoration:none;">Mashiro</a> and <a href="https://www.hojun.cn/" target="_blank" style="color: #000000;text-decoration:none;">Hojun</a>.
       </p>
-      <p>© 2020 <%= config.title %></p>
+      <p><%= copyright(theme.birthyear) %> <%= config.title %></p>
     </div>
     <% if (theme.supports) { %>
       <%- partial('_partial/supports.ejs') %> 
