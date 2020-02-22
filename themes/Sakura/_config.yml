@@ -115,6 +115,11 @@ disqus:
   shortname: alex4814
   count: false
 
+# Display site supporters' logo
+supports:
+  cloudflare:
+  dmit: https://www.dmit.io/aff.php?aff=580
+
 # Valine
 valine: true
 v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz

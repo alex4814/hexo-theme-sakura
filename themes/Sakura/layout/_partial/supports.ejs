@@ -1,0 +1,8 @@
+<p id="site-sponsor">
+    <% for(var vendor in theme.supports) { %>
+        <% let url = theme.supports[vendor] || vendors[vendor].url %>
+        <a href="<%- url %>" target="_blank" rel="nofollow">
+            <img class="vendor-logo" src="<%- vendors[vendor].logo %>" alt="<%- vendor %>.logo" title="<%- vendor %>">
+        </a>
+    <% } %>
+</p>

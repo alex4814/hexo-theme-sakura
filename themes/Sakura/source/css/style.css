@@ -6949,11 +6949,17 @@ to {
     transition-duration:1s,1s;
     z-index:99999
 }
-#footer-sponsor {
+#site-sponsor {
     font-size:9px
 }
+#site-sponsor .vendor-logo {
+    height: 4em;
+}
+#site-sponsor .vendor-logo[title="dmit"] {
+    padding: 9px 2px 7px 2px;
+}
 @media(max-width:860px) {
-    #footer-sponsor {
+    #site-sponsor {
     margin-bottom:-20px
 }
 }.comment-user-avatar {

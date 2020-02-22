@@ -8,16 +8,9 @@
       </p>
       <p>© 2020 <%= config.title %></p>
     </div>
-    <p id="footer-sponsor">
-      <a href="https://www.cloudflare.com/" target="_blank" alt="CDN Sponsor" rel="nofollow">
-        <img src="/images/logo/cloudflare-dark.svg" alt="CDN Sponsor" style="height: 1.5em;">
-      </a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.dmit.io/aff.php?aff=580" target="_blank" alt="Server provider" rel="nofollow">
-        <img src="/images/logo/dmit-blue.svg" alt="Server provider" style="height: 1.5em;">
-      </a>&nbsp;&nbsp;&nbsp;
-      <a href="https://www.google.com/intl/ja/analytics/" target="_blank" alt="Analytics solution" rel="nofollow">
-        <img src="https://cdn.jsdelivr.net/gh/moezx/cdn@3.0.8/img/logo/Google.svg" alt="Google Analytics" style="height: 1.5em; "></a>
-    </p>
+    <% if (theme.supports) { %>
+      <%- partial('_partial/supports.ejs') %> 
+    <% } %>
   </div>
 </footer>
 
