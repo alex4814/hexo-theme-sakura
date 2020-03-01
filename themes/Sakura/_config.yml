@@ -83,6 +83,21 @@ donate:
   wechat: /img/custom/donate/WeChanQR.jpg
   wechatSQ: /img/custom/donate/WeChanSQ.jpg
 
+codeblock:
+  highlight:
+    theme: xcode
+  copy:
+    enable: false
+    style:
+  zoom:
+    enable: false
+
+font:
+  code:
+    external: true
+    family: SF Mono
+
+
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
   url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
@@ -117,3 +132,7 @@ valine: true
 v_appId: GyC3NzMvd0hT9Yyd2hYIC0MN-gzGzoHsz
 v_appKey: mgOpfzbkHYqU92CV4IDlAUHQ
 
+# Assets
+css: css
+js: js
+image: images

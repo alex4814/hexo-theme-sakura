@@ -1,7 +1,8 @@
 'use strict';
 
 hexo.extend.filter.register('template_locals', locals => {
-    const { env } = hexo;
+    const { env, config } = hexo;
+    const { theme } = locals;
     locals.hexo_version = env.version;
     locals.vendors = {
         dmit: {
@@ -13,5 +14,6 @@ hexo.extend.filter.register('template_locals', locals => {
             logo: '/images/logo/cf-logo-v.svg',
         }
     }
+    theme.codeblock.highlight.hljs = config.highlight.hljs;
     return locals;
 });

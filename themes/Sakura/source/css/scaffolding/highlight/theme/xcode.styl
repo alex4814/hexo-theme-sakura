@@ -1,0 +1,109 @@
+$highlight-background   = #FFFFFF;
+$highlight-current-line = #EDF5FF;
+$highlight-selection    = #B2D7FF;
+$highlight-foreground   = #c5c8c6;
+$highlight-comment      = #969896;
+$highlight-red          = #cc6666;
+$highlight-orange       = #de935f;
+$highlight-yellow       = #f0c674;
+$highlight-green        = #b5bd68;
+$highlight-aqua         = #8abeb7;
+$highlight-blue         = #81a2be;
+$highlight-purple       = #b294bb;
+$highlight-gutter       = {
+  color: #A6A6A6,
+  bg-color: $highlight-background
+};
+
+color-scheme() {
+  /* Gray DOCTYPE selectors like WebKit */
+  .xml .meta {
+    color: #c0c0c0;
+  }
+  
+  .comment,
+  .quote {
+    color: #007400;
+  }
+
+  .tag,
+  .attribute,
+  .keyword,
+  .selector-tag,
+  .literal,
+  .name {
+    color: #aa0d91;
+  }
+
+  .variable,
+  .template-variable {
+    color: #3F6E74;
+  }
+
+  .code,
+  .string,
+  .meta-string {
+    color: #c41a16;
+  }
+
+  .regexp,
+  .link {
+    color: #0E0EFF;
+  }
+
+  .title,
+  .symbol,
+  .bullet,
+  .number {
+    color: #1c00cf;
+  }
+
+  .section,
+  .meta {
+    color: #643820;
+  }
+
+
+  .class .title,
+  .type,
+  .built_in,
+  .builtin-name,
+  .params {
+    color: #5c2699;
+  }
+
+  .attr {
+    color: #836C28;
+  }
+
+  .subst {
+    color: #000;
+  }
+
+  .formula {
+    background-color: #eee;
+    font-style: italic;
+  }
+
+  .addition {
+    background-color: #baeeba;
+  }
+
+  .deletion {
+    background-color: #ffc8bd;
+  }
+
+  .selector-id,
+  .selector-class {
+    color: #9b703f;
+  }
+
+  .doctag,
+  .strong {
+    font-weight: bold;
+  }
+
+  .emphasis {
+    font-style: italic;
+  }
+}

@@ -1,4 +1,12 @@
 
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Regular"),
+    local("SFMono-Regular"),
+    url("../fonts/SFMono-Regular.otf");
+  font-weight: normal;
+}
+
 @font-face {font-family: "iconfont";
   src: url('//at.alicdn.com/t/font_679578_dishi1yoavm.eot?t=1544347866779'); /* IE9*/
   src: url('//at.alicdn.com/t/font_679578_dishi1yoavm.eot?t=1544347866779#iefix') format('embedded-opentype'), /* IE6-IE8 */
