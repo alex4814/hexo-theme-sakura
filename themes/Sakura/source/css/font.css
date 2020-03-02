@@ -6,6 +6,43 @@
     url("../fonts/SFMono-Regular.otf");
   font-weight: normal;
 }
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Bold"),
+    local("SFMono-Bold"),
+    url("../fonts/SFMono-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Regular Italic"),
+    local("SFMono-Bold"),
+    url("../fonts/SFMono-RegularItalic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "D-DIN";
+  src: local("D-DIN"),
+    url("../fonts/D-DIN.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "D-DIN";
+  src: local("D-DIN-Bold"),
+    local("D-DIN Bold"),
+    url("../fonts/D-DIN-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "D-DIN";
+  src: local("D-DIN-Italic"),
+    local("D-DIN Italic"),
+    url("../fonts/D-DIN-Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
 
 @font-face {font-family: "iconfont";
   src: url('//at.alicdn.com/t/font_679578_dishi1yoavm.eot?t=1544347866779'); /* IE9*/
