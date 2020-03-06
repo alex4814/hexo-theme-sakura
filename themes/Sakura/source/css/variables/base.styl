@@ -32,8 +32,6 @@ $font-family-chinese      = "PingFang SC", "Microsoft YaHei";
 
 $font-family-monospace    = consolas, Menlo, monospace, $font-family-chinese;
 $font-family-monospace    = get_font_family('code'), consolas, Menlo, monospace, $font-family-chinese if get_font_family('code');
-$font-family-gutter       = consolas, Menlo, monospace;
-$font-family-gutter       = get_font_family('gutter'), consolas, Menlo, monospace if get_font_family('gutter');
 
 // Font size
 $font-size-base           = (hexo-config('font.enable') and hexo-config('font.global.size') is a 'unit') ? unit(hexo-config('font.global.size'), em) : 1em;
@@ -49,6 +47,7 @@ $font-size-largest        = 1.375em;
 // Code & Code Blocks
 // --------------------------------------------------
 $code-font-family               = $font-family-monospace;
+$code-font-size                 = 12px;
 $code-border-radius             = 3px;
 $code-foreground                = $black-light;
 $code-background                = $gainsboro;
