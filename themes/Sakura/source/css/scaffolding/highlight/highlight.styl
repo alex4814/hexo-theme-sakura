@@ -24,6 +24,9 @@ code {
 .highlight {
   @extend $code-block;
 
+  position: relative;
+  left: -50px;
+
   *::selection {
     background: $highlight-selection;
   }
@@ -39,10 +42,6 @@ code {
     border: 0;
     margin: 0;
     width: auto;
-
-    // TODO:
-    position: relative;
-    left: -50px;
   }
 
   td {
@@ -71,14 +70,18 @@ code {
   .gutter {
     disable-user-select();
 
+    padding-right: 20px;
+
     pre {
       background: $highlight-gutter.bg-color;
       color: $highlight-gutter.color;
-      padding-right: 20px;
-      text-align: right;
 
+      text-align: right;
+      width: 30px;
+
+      font-family: SF Mono;
+      font-weight: 300;
       font-feature-settings: "ss03", "ss04";
-      font-weight: lighter;
     }
   }
 

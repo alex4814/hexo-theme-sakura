@@ -1,55 +1,101 @@
-
-@font-face {
-  font-family: "SF Mono";
-  src: local("SF Mono Regular"),
-    local("SFMono-Regular"),
-    url("../fonts/SFMono-Regular.otf");
-  font-weight: 400;
-}
+/* SF Mono */
 @font-face {
   font-family: "SF Mono";
   src: local("SF Mono Light"),
     local("SFMono-Light"),
-    url("../fonts/SFMono-Light.otf");
+    url("../fonts/SFMono/SFMono-Light.otf");
   font-weight: 300;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Regular"),
+    local("SFMono-Regular"),
+    url("../fonts/SFMono/SFMono-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Semibold"),
+    local("SFMono-Semibold"),
+    url("../fonts/SFMono/SFMono-Semibold.otf");
+  font-weight: 600;
 }
 @font-face {
   font-family: "SF Mono";
   src: local("SF Mono Bold"),
     local("SFMono-Bold"),
-    url("../fonts/SFMono-Bold.otf");
+    url("../fonts/SFMono/SFMono-Bold.otf");
   font-weight: 700;
+}
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono Heavy"),
+    local("SFMono-Heavy"),
+    url("../fonts/SFMono/SFMono-Heavy.otf");
+  font-weight: 900;
 }
 @font-face {
   font-family: "SF Mono";
   src: local("SF Mono Regular Italic"),
     local("SFMono-Bold"),
-    url("../fonts/SFMono-RegularItalic.otf");
+    url("../fonts/SFMono/SFMono-RegularItalic.otf");
   font-weight: 400;
   font-style: italic;
 }
 
+
+/* SF Pro Text */
 @font-face {
-  font-family: "D-DIN";
-  src: local("D-DIN"),
-    url("../fonts/D-DIN.otf");
-  font-weight: normal;
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Thin"),
+    local("SFProText-Thin"),
+    url("../fonts/SFProText/SF-Pro-Text-Thin.otf");
+  font-weight: 100;
 }
 @font-face {
-  font-family: "D-DIN";
-  src: local("D-DIN-Bold"),
-    local("D-DIN Bold"),
-    url("../fonts/D-DIN-Bold.otf");
-  font-weight: bold;
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Light"),
+    local("SFProText-Light"),
+    url("../fonts/SFProText/SF-Pro-Text-Light.otf");
+  font-weight: 300;
 }
 @font-face {
-  font-family: "D-DIN";
-  src: local("D-DIN-Italic"),
-    local("D-DIN Italic"),
-    url("../fonts/D-DIN-Italic.otf");
-  font-weight: normal;
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Regular"),
+    local("SFProText-Regular"),
+    url("../fonts/SFProText/SF-Pro-Text-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Semibold"),
+    local("SFProText-Semibold"),
+    url("../fonts/SFProText/SF-Pro-Text-Semibold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Bold"),
+    local("SFProText-Bold"),
+    url("../fonts/SFProText/SF-Pro-Text-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Heavy"),
+    local("SFProText-Heavy"),
+    url("../fonts/SFProText/SF-Pro-Text-Heavy.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: local("SF Pro Text Regular Italic"),
+    local("SFProText-Bold"),
+    url("../fonts/SFProText/SF-Pro-Text-RegularItalic.otf");
+  font-weight: 400;
   font-style: italic;
 }
+
 
 @font-face {font-family: "iconfont";
   src: url('//at.alicdn.com/t/font_679578_dishi1yoavm.eot?t=1544347866779'); /* IE9*/

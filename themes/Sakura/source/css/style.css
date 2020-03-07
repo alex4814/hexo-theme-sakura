@@ -697,11 +697,11 @@ input:-webkit-autofill {
 }
 ::selection {
     background:#444;
-    color:#fff
+    /* color:#fff */
 }
 ::-moz-selection {
     background:#444;
-    color:#fff
+    /* color:#fff */
 }
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary {
     display:block
